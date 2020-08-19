@@ -1,6 +1,6 @@
 {
 "name" : "Perk Deck Fixes",
-"description" : "Fixes incorrect values on perk deck cards",
+"description" : "Fixes discrepencies between values on perk deck cards and the actual bonuses given",
 "author" : "Oryo",
 "version" : "1.0",
 "priority" : 600,
