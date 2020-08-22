@@ -1,21 +1,34 @@
 {
 "name" : "Perk Deck Fixes",
-"description" : "Fixes discrepencies between values on perk deck cards and the actual bonuses given",
+"description" : "Fixes incorrect values on perk deck cards",
 "author" : "Oryo",
+"image" : "oryo.png",
+"color" : "0 1 0.95",
 "version" : "1.0",
 "priority" : 600,
 "blt_version" : 2,
  
 "hooks" : [
-{
-"hook_id"	: "lib/managers/localizationmanager",
- "script_path" : "loc/localizationmanager.lua" 
-},
 
-{
-"hook_id"	: "lib/tweak_data/upgradestweakdata",
- "script_path" : "hooks/upgradestweakdata.lua" 
-}
+	{
+		"hook_id"		: "lib/managers/localizationmanager",
+		 "script_path" 	: "loc/localizationmanager.lua" 
+	},
+
+	{
+		"hook_id"		: "lib/tweak_data/upgradestweakdata",
+		 "script_path"	: "hooks/upgradestweakdata.lua" 
+	},
+
+	{
+		"hook_id"		: "lib/managers/playermanager",
+		 "script_path" 	: "hooks/skilltreetweakdata.lua" 
+	},
+
+	{
+		"hook_id"		: "lib/units/beings/player/states/playerstandard",
+		 "script_path" 	: "hooks/playerstandard.lua" 
+	}
 
 ]
  
