@@ -1,5 +1,5 @@
 {
-"name" : "Perk Deck Fixes",
+"name" : "Perk Deck Fixes Developer",
 "description" : "Fixes incorrect values on perk deck cards",
 "author" : "Oryo",
 "image" : "oryo.png",
