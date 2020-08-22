@@ -1,0 +1,29 @@
+{
+"name" : "Perk Deck Fixes",
+"description" : "Fixes discrepencies between values on perk deck cards and the actual bonuses given",
+"author" : "Oryo",
+"version" : "1.0",
+"blt_version" : 2,
+"updates" : [
+	{
+		"identifier" : "TattlingJam4231PerkDeckFixes",
+		"host" : {
+			"meta" : "https://github.com/TattlingJam4231/biker-buff/raw/master/Biker%20Buff/meta.json"
+		}
+	}
+],
+ 
+"hooks" : [
+{
+"hook_id"	: "lib/managers/localizationmanager",
+ "script_path" : "loc/localizationmanager.lua" 
+},
+
+{
+"hook_id"	: "lib/tweak_data/upgradestweakdata",
+ "script_path" : "hooks/upgradestweakdata.lua" 
+}
+
+]
+ 
+}
